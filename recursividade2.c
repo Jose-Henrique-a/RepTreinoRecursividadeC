@@ -5,10 +5,10 @@
 */
 int imprimir( int x ){
     if (x == 0)
-        printf(" %d ", x);
+        printf(" *%d* ", x);
     else{
-        printf(" %d ", x);
         imprimir(x - 1);
+        printf(" %d ", x);
     }
 }
 
